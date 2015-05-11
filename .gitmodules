@@ -1,0 +1,18 @@
+[submodule "vim/.vim/bundle/ctrlp.vim"]
+	path = vim/.vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/.vim/bundle/gundo.vim"]
+	path = vim/.vim/bundle/gundo.vim
+	url = https://github.com/sjl/gundo.vim.git
+[submodule "vim/.vim/bundle/matchit"]
+	path = vim/.vim/bundle/matchit
+	url = https://github.com/tmhedberg/matchit.git
+[submodule "vim/.vim/bundle/vim-commentary"]
+	path = vim/.vim/bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim/.vim/bundle/vim-fugitive"]
+	path = vim/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/.vim/bundle/vim-powerline"]
+	path = vim/.vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
