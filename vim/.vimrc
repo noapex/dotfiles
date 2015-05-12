@@ -98,7 +98,9 @@ set number  " show line numbers
 set tw=79   " width of document (used by gd)
 set nowrap  " don't automatically wrap on load
 set fo-=t   " don't automatically wrap text when typing
-set colorcolumn=80
+if version >= 703
+    set colorcolumn=80
+endif
 highlight ColorColumn ctermbg=233
 
 
