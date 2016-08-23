@@ -1,4 +1,4 @@
 - hosts: localhost
   tasks:
    - name: Install Nginx
-     dnf: pkg=nginx state=installed update_cache=true
+     dnf: pkg=nginx state=installed
