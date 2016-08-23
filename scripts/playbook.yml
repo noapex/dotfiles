@@ -1,5 +1,5 @@
 - hosts: localhost
-  sudo: yes
+  become: true
   tasks:
    - name: Install Nginx
      yum: pkg=nginx state=installed update_cache=true
