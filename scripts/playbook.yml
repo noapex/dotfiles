@@ -1,4 +1,4 @@
 - hosts: localhost
   tasks:
    - name: Install Nginx
-     yum: pkg=nginx state=installed
+     yum: pkg=nginx state=installed update_cache=no
