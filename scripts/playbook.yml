@@ -1,4 +1,4 @@
 - hosts: localhost
   tasks:
-   - name: Install Nginx
-     yum: pkg=nginx state=installed
+   - name: Install tmux
+     yum: pkg=tmux state=installed
